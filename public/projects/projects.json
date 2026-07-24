@@ -1,0 +1,41 @@
+{
+  "projects": [
+    {
+      "id": "proj-01",
+      "title": "DevFlow - Developer Community Platform",
+      "slug": "devflow-community-platform",
+      "subtitle": "A full-stack Q&A platform for developers powered by AI recommendations.",
+      "description": "DevFlow is a modern community Q&A platform designed to help developers ask questions, share insights, and get smart recommendations. Built with Next.js App Router, Server Actions, and MongoDB, it features real-time search, badge rewards, and AI-powered answer generation.",
+      "featured": true,
+      "category": "Full-Stack Web App",
+      "status": "Completed",
+      "startDate": "2025-01-10",
+      "endDate": "2025-03-15",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "MongoDB", "OpenAI API"],
+      "media": {
+        "coverImage": "/images/projects/devflow-banner.jpg",
+        "thumbnail": "/images/projects/devflow-thumb.jpg",
+        "screenshots": [
+          "/images/projects/devflow-dashboard.jpg",
+          "/images/projects/devflow-mobile.jpg"
+        ],
+        "demoVideo": "https://youtube.com/watch?v=example"
+      },
+      "links": {
+        "live": "https://devflow.example.com",
+        "github": "https://github.com/yourusername/devflow",
+        "documentation": "https://docs.devflow.example.com"
+      },
+      "highlights": [
+        "Architected with Next.js 14 App Router and Server Actions for fast server-side rendering.",
+        "Integrated OpenAI API to provide auto-generated answer summaries for complex queries.",
+        "Implemented global search with debouncing and multi-filter taxonomy system."
+      ],
+      "metrics": {
+        "stars": 128,
+        "users": "1,200+",
+        "performanceScore": 98
+      }
+    }
+  ]
+}
