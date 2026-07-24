@@ -1,40 +1,170 @@
 {
   "projects": [
     {
-      "id": "proj-01",
-      "title": "DevFlow - Developer Community Platform",
-      "slug": "devflow-community-platform",
-      "subtitle": "A full-stack Q&A platform for developers powered by AI recommendations.",
-      "description": "DevFlow is a modern community Q&A platform designed to help developers ask questions, share insights, and get smart recommendations. Built with Next.js App Router, Server Actions, and MongoDB, it features real-time search, badge rewards, and AI-powered answer generation.",
-      "featured": true,
+      "id": "1",
+      "name": "Peyaraful Crowdfunding",
+      "slug": "Crowdfunding community platform",
+      "subtitle": "Empowering creators to raise funds through community support for projects, causes, and innovative ideas.",
+      "description": "Peyaraful Crowdfunding is designed to let creators raise money for projects, causes, and products by collecting Contributions from Supporters. Supporters browse campaigns, contribute platform credits toward the ones they want to support, and creators withdraw the funds they raise once approved by the platform",
+      "featured": {
+        "Campaign-Management": "Comprehensive Campaign Management for creators to create, manage, and track their fundraising campaigns.",
+        "Withdraw": "Secure Withdrawal System for creators to request and receive funds raised from their campaigns.",
+        "Notifications": "Real-time notifications for new Contributions and Campaigns.",
+        "Reporting": "Customizable reports for Campaigns, Contributions, and Users.",
+        "Mobile": "Responsive and mobile-friendly interface for easy access on mobile devices."
+      },
       "category": "Full-Stack Web App",
       "status": "Completed",
-      "startDate": "2025-01-10",
-      "endDate": "2025-03-15",
-      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "MongoDB", "OpenAI API"],
+      "startDate": "2026-06-22",
+      "endDate": "2026-07-05",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "MongoDB",
+        "Node.js",
+        "Express.js",
+        "Tailwind CSS"
+      ],
       "media": {
-        "coverImage": "/images/projects/devflow-banner.jpg",
-        "thumbnail": "/images/projects/devflow-thumb.jpg",
+        "coverImage": "/public/projects/crowdfunding/banner.png",
         "screenshots": [
-          "/images/projects/devflow-dashboard.jpg",
-          "/images/projects/devflow-mobile.jpg"
+          "/public/projects/crowdfunding/buy-credits.png",
+          "/public/projects/crowdfunding/camping.png",
+          "/public/projects/crowdfunding/how-its-works.png"
         ],
         "demoVideo": "https://youtube.com/watch?v=example"
       },
       "links": {
-        "live": "https://devflow.example.com",
-        "github": "https://github.com/yourusername/devflow",
+        "live": "https://peyaraful-crowdfunding-client.vercel.app",
+        "serverRepo": "https://github.com/PeyaraFul/peyaraful-crowdfunding-server",
+        "clientRepo": "https://github.com/PeyaraFul/peyaraful-crowdfunding-client",
+        "documentation": "https://docs.devflow.example.com"
+      },
+      "highlights": [
+        "Architected with Next.js 14 App Router and Server Actions for fast server-side rendering.",
+        "Implemented Server-Side Search & Filtering for efficient data retrieval.",
+        "Implemented stripe payment integration for secure and seamless transactions."
+      ],
+      "challenge": [
+        "The main challenge was to create a secure and seamless real ayment system for the crowdfunding campaigns. This required integrating with Stripe, a popular payment gateway, and implementing server-side search and filtering to efficiently retrieve data."
+      ],
+      "metrics": {
+        "stars": 128,
+        "users": "100+",
+        "performanceScore": 88
+      }
+    },
+
+    {
+      "id": "2",
+      "name": "Peyaraful Cat Adoption",
+      "slug": "Cat Adoption Platform",
+      "subtitle": "Empowering cat lovers to adopt cats and provide them with a loving home.",
+      "description": "Peyaraful Cat Adoption is a free online platform that helps cats in Bangladesh find loving homes. It connects cat owners who can no longer keep their cats with people who want to adopt one. The platform provides cat owners to find suitable homes for their cats, and the cat lovers find cats that are available for adoption.",
+      "featured": {
+        "AI-Assistant": "AI Assistant helps users find suitable cats, caring, cat training, and adoption services.",
+        "Smart-Search": "Smart Search helps users find suitable cats based on location, cat age and gender.",
+        "Story-Sharing": "Story Sharing allows users to share their cat stories and experiences with others.",
+        "Liking-System": "Liking System allows users to like their cat stories and experiences."
+      },
+      "category": "Full-Stack Web App",
+      "status": "Completed",
+      "startDate": "2026-07-10",
+      "endDate": "2026-07-15",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "MongoDB",
+        "Node.js",
+        "Express.js",
+        "Tailwind CSS",
+        "Gemini API"
+      ],
+      "media": {
+        "coverImage": "/public/projects/cat-adoption/banner.png",
+        "screenshots": [
+          "/public/projects/cat-adoption/cat.png",
+          "/public/projects/cat-adoption/story.png",
+          "/public/projects/cat-adoption/community.png"
+        ],
+        "demoVideo": "https://youtube.com/watch?v=example"
+      },
+      "links": {
+        "live": "https://peyarafulcatadoptionclient.vercel.app",
+        "serverRepo": "https://github.com/PeyaraFul/peyaraful-cat-adoption-server",
+        "clientRepo": "https://github.com/PeyaraFul/peyaraful-cat-adoption-client",
         "documentation": "https://docs.devflow.example.com"
       },
       "highlights": [
         "Architected with Next.js 14 App Router and Server Actions for fast server-side rendering.",
         "Integrated OpenAI API to provide auto-generated answer summaries for complex queries.",
-        "Implemented global search with debouncing and multi-filter taxonomy system."
+        "Implemented Server-Side Search & Filtering for efficient data retrieval.",
+        "Only Google login is available for now."
+      ],
+      "challenge": [
+        "The main challenge was to implement a smart search feature that allows users to find suitable cats based on location, cat age, and gender. This required integrating the Gemini API, which provides a comprehensive set of cat-related data.",
+        "Overall, the project was a success, and I received positive feedback from the team. The project demonstrated my ability to work with Next.js, integrate with the Gemini API, and implement a smart search feature. The project also showcased my proficiency in MongoDB and Next.js."
       ],
       "metrics": {
-        "stars": 128,
-        "users": "1,200+",
-        "performanceScore": 98
+        "stars": 100,
+        "users": "60+",
+        "performanceScore": 90
+      }
+    },
+
+    {
+      "id": "3",
+      "name": "Peyaraful Farm",
+      "slug": "Cow Sales Site",
+      "subtitle": "The farm authority sales cows and buffalo to the customers and the customers can buy animal from the farm authority.",
+      "description": "Peyaraful Farm is a platform that allows customers to buy cows and buffaloes from farm authorities. The platform provides a convenient way for customers to browse available animals, view their details, and make purchases directly from the farm authorities.",
+      "featured": {
+        "Demo-User": "By login Demo user can be used to test the application without creating an account.",
+        "Smart-Search": "Smart Search with price high to low and low to high, and also by animal type.",
+        "Review": "If a customer successful purchase, only that customer can give a review to the farm authority.",
+        "Latest-Activities": "Latest Review and latest animal added by the farm authority will be shown on the home page."
+      },
+      "category": "Full-Stack Web App",
+      "status": "Completed",
+      "startDate": "2026-07-06",
+      "endDate": "2026-07-12",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "MongoDB",
+        "Node.js",
+        "Express.js",
+        "Tailwind CSS"
+      ],
+      "media": {
+        "coverImage": "/public/projects/farm/banner.png",
+        "screenshots": [
+          "/public/projects/farm/login.png",
+          "/public/projects/farm/cow.png",
+          "/public/projects/farm/review.png"
+        ],
+        "demoVideo": "https://youtube.com/watch?v=example"
+      },
+      "links": {
+        "live": "https://peyaraful-farm-client.vercel.app",
+        "serverRepo": "https://github.com/PeyaraFul/peyaraful-farm-server",
+        "clientRepo": "https://github.com/PeyaraFul/peyaraful-farm-client",
+        "documentation": "https://docs.devflow.example.com"
+      },
+      "highlights": [
+        "Customer can view history of purchases and reviews.",
+        "500+ animals are available for sale on the platform.",
+        "You can visit the web as guest user, but you can't buy any animal or give a review."
+      ],
+      "challenge": [
+        "Implemented relative animal int the cow details page, which shows the animals of the same type and price range. This feature helps customers to find similar animals easily.",
+        "Implemented a review after a successful purchases that allows customers to give reviews.",
+        "Cow list pagination is implemented to show only 8 animals per page."
+      ],
+      "metrics": {
+        "stars": 100,
+        "users": "120+",
+        "performanceScore": 95
       }
     }
   ]
