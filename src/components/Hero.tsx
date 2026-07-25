@@ -72,7 +72,7 @@ export default function Hero() {
 
             <div className="flex items-center gap-4 justify-center lg:justify-start pt-2">
               <a
-                href="https://linkedin.com"
+                href="http://linkedin.com/in/md-akash-mia-bd"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-blue-900/40 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
@@ -80,7 +80,7 @@ export default function Hero() {
                 <FaLinkedinIn size={18} />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/PeyaraFul"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-blue-900/40 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
@@ -88,7 +88,7 @@ export default function Hero() {
                 <FaGithub size={18} />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/arakash022"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-blue-900/40 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
