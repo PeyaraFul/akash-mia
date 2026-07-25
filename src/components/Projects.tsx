@@ -28,16 +28,21 @@ export default function Projects() {
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
-                <span className="absolute top-3 left-3 px-3 py-1 text-xs font-semibold rounded-full bg-blue-600/20 backdrop-blur-sm text-blue-600 shadow-lg">
-                  {project.category}
-                </span>
               </div>
 
               <div className="p-5">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="px-2.5 py-0.5 text-[11px] font-semibold rounded-full bg-blue-100 dark:bg-blue-900/40 text-blue-600 dark:text-blue-400">
+                    {project.category}
+                  </span>
+                  <span className="px-2.5 py-0.5 text-[11px] font-semibold rounded-full bg-green-100 dark:bg-green-900/40 text-green-600 dark:text-green-400">
+                  {project.status}
+                  </span>                             
+                </div>
                 <h3 className="text-lg font-bold text-gray-900 dark:text-white">
                   {project.name}
                 </h3>
-                <p className="mt-1 text-xs font-medium text-blue-600 dark:text-blue-400">
+                <p className="mt-1 text-xs font-medium text-gray-500 dark:text-gray-500">
                   {project.slug}
                 </p>
                 <p className="mt-3 text-sm text-gray-600 dark:text-gray-400 leading-relaxed line-clamp-2">
