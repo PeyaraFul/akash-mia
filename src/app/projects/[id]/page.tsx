@@ -12,6 +12,7 @@ import {
   FiBookOpen,
   FiCheckCircle,
   FiAlertTriangle,
+  FiTrendingUp,
 } from "react-icons/fi";
 import projectsData from "../../../../public/projects/projects.json";
 
@@ -128,6 +129,21 @@ export default async function ProjectDetails({ params }: { params: Promise<{ id:
                   <li key={i} className="flex items-start gap-3 text-sm text-gray-600 dark:text-gray-400">
                     <span className="mt-1 w-2 h-2 rounded-full bg-amber-500 flex-shrink-0" />
                     {c}
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="p-6 rounded-2xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+              <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                <FiTrendingUp size={20} className="text-blue-600 dark:text-blue-400" />
+                Areas for Improvement
+              </h2>
+              <ul className="space-y-3">
+                {project.improvement.map((item, i) => (
+                  <li key={i} className="flex items-start gap-3 text-sm text-gray-600 dark:text-gray-400">
+                    <span className="mt-1 w-2 h-2 rounded-full bg-blue-500 flex-shrink-0" />
+                    {item}
                   </li>
                 ))}
               </ul>

@@ -48,6 +48,7 @@
       "challenge": [
         "The main challenge was to create a secure and seamless real ayment system for the crowdfunding campaigns. This required integrating with Stripe, a popular payment gateway, and implementing server-side search and filtering to efficiently retrieve data."
       ],
+      "improvement": ["Local banking Payment Gateway.", "Flow Up system.", "Notification system."],
       "metrics": {
         "stars": 128,
         "users": "100+",
@@ -105,6 +106,7 @@
         "The main challenge was to implement a smart search feature that allows users to find suitable cats based on location, cat age, and gender. This required integrating the Gemini API, which provides a comprehensive set of cat-related data.",
         "Overall, the project was a success, and I received positive feedback from the team. The project demonstrated my ability to work with Next.js, integrate with the Gemini API, and implement a smart search feature. The project also showcased my proficiency in MongoDB and Next.js."
       ],
+      "improvement": ["Including every pets.", "Flow Up system.", "Notification system."],
       "metrics": {
         "stars": 100,
         "users": "60+",
@@ -161,6 +163,7 @@
         "Implemented a review after a successful purchases that allows customers to give reviews.",
         "Cow list pagination is implemented to show only 8 animals per page."
       ],
+      "improvement": ["Stripe payment integration.", "Localization." ],
       "metrics": {
         "stars": 100,
         "users": "120+",
@@ -184,20 +187,13 @@
       "status": "Completed",
       "startDate": "2026-06-01",
       "endDate": "2026-06-10",
-      "tech": [
-        "Next.js",
-        "MongoDB",
-        "Node.js",
-        "Express.js",
-        "Tailwind CSS"
-      ],
+      "tech": ["Next.js", "MongoDB", "Node.js", "Express.js", "Tailwind CSS"],
       "media": {
         "coverImage": "/public/projects/property-rental/banner.png",
         "screenshots": [
           "/public/projects/property-rental/profile.png",
           "/public/projects/property-rental/property.png",
           "/public/projects/property-rental/favorite.png"
-         
         ],
         "demoVideo": "https://youtube.com/watch?v=example"
       },
@@ -216,10 +212,11 @@
         "Stripe payment integration for secure and seamless transactions.",
         "Pagination is implemented to the owner and tenant dashboard to show only 10 properties per page."
       ],
+      "improvement": ["Reporting and Analytics."],
       "metrics": {
         "stars": 130,
         "users": "90+",
-        "performanceScore":80
+        "performanceScore": 80
       }
     },
 
@@ -239,20 +236,13 @@
       "status": "Completed",
       "startDate": "2026-05-15",
       "endDate": "2026-05-24",
-      "tech": [
-        "Next.js",
-        "MongoDB",
-        "Node.js",
-        "Express.js",
-        "Tailwind CSS"
-      ],
+      "tech": ["Next.js", "MongoDB", "Node.js", "Express.js", "Tailwind CSS"],
       "media": {
         "coverImage": "/public/projects/car-rental/banner.png",
         "screenshots": [
           "/public/projects/car-rental/booking.png",
           "/public/projects/car-rental/car.png",
           "/public/projects/car-rental/add.png"
-         
         ],
         "demoVideo": "https://youtube.com/watch?v=example"
       },
@@ -272,10 +262,11 @@
         "Count how many times a car has been rented by the users.",
         "Implement backend setup nodeJS, expressJS, and mongoDB."
       ],
+      "improvement": ["Role based access control.", "Stripe payment integration."],
       "metrics": {
         "stars": 70,
         "users": "40+",
-        "performanceScore":70
+        "performanceScore": 70
       }
     }
   ]
