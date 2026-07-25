@@ -194,7 +194,7 @@ export default async function ProjectDetails({ params }: { params: Promise<{ id:
                   href={project.links.live}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 w-full px-4 py-2.5 text-sm font-medium rounded-lg bg-blue-600 hover:bg-blue-700 text-white transition-colors"
+                  className="flex items-center gap-2 w-full px-4 py-2.5 text-sm font-medium rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white transition-all"
                 >
                   <FiExternalLink size={16} />
                   Live Demo

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { FiDownload } from "react-icons/fi";
+import { FiDownload, FiBriefcase, FiCode, FiClock } from "react-icons/fi";
 import { FaLinkedinIn, FaGithub, FaFacebookF } from "react-icons/fa";
 
 export default function Hero() {
@@ -35,7 +35,7 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
               <a
                 href="#contact"
-                className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors shadow-lg shadow-blue-600/25"
+                className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-medium rounded-lg transition-all shadow-lg shadow-blue-600/25"
               >
                 Hire Me
               </a>
@@ -47,6 +47,27 @@ export default function Hero() {
                 <FiDownload size={18} />
                 Download Resume
               </a>
+            </div>
+
+            <div className="grid grid-cols-3 gap-4 pt-4 max-w-md mx-auto lg:mx-0">
+              <div className="p-4 rounded-xl bg-white/60 dark:bg-gray-900/60 backdrop-blur-sm border border-gray-200 dark:border-gray-800 text-center">
+                <FiBriefcase size={20} className="mx-auto text-blue-600 dark:text-blue-400 mb-2" />
+                <p className="text-lg font-bold text-gray-900 dark:text-white">10+</p>
+                <p className="text-[11px] text-gray-500 dark:text-gray-400">Learning Projects</p>
+                <p className="text-[10px] font-medium text-green-600 dark:text-green-400">Completed</p>
+              </div>
+              <div className="p-4 rounded-xl bg-white/60 dark:bg-gray-900/60 backdrop-blur-sm border border-gray-200 dark:border-gray-800 text-center">
+                <FiCode size={20} className="mx-auto text-purple-600 dark:text-purple-400 mb-2" />
+                <p className="text-lg font-bold text-gray-900 dark:text-white">MERN</p>
+                <p className="text-[11px] text-gray-500 dark:text-gray-400">Full Stack</p>
+                <p className="text-[10px] font-medium text-purple-600 dark:text-purple-400">Development</p>
+              </div>
+              <div className="p-4 rounded-xl bg-white/60 dark:bg-gray-900/60 backdrop-blur-sm border border-gray-200 dark:border-gray-800 text-center">
+                <FiClock size={20} className="mx-auto text-pink-600 dark:text-pink-400 mb-2" />
+                <p className="text-lg font-bold text-gray-900 dark:text-white">24/7</p>
+                <p className="text-[11px] text-gray-500 dark:text-gray-400">Learning &</p>
+                <p className="text-[10px] font-medium text-pink-600 dark:text-pink-400">Building</p>
+              </div>
             </div>
 
             <div className="flex items-center gap-4 justify-center lg:justify-start pt-2">
@@ -75,9 +96,11 @@ export default function Hero() {
                 <FaFacebookF size={18} />
               </a>
             </div>
+
+            
           </div>
 
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 relative">
             <div className="relative p-[5px] rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 shadow-2xl shadow-blue-500/30">
               <div className="relative w-96 h-96 sm:w-[450px] sm:h-[450px] lg:w-[550px] lg:h-[550px] rounded-full overflow-hidden bg-white dark:bg-black">
                 <Image
@@ -88,6 +111,20 @@ export default function Hero() {
                   priority
                 />
               </div>
+            </div>
+
+            <div className="absolute top-8 -right-4 sm:top-12 sm:right-0 px-4 py-2 rounded-xl bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm border border-gray-200 dark:border-gray-700 shadow-lg">
+              <p className="text-xs font-semibold text-gray-900 dark:text-white flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+                Exploring Problem Solving
+              </p>
+            </div>
+
+            <div className="absolute top-20 -right-4 sm:top-24 sm:right-0 px-4 py-2 rounded-xl bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm border border-gray-200 dark:border-gray-700 shadow-lg">
+              <p className="text-xs font-semibold text-gray-900 dark:text-white flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+                Exploring TypeScript
+              </p>
             </div>
           </div>
         </div>

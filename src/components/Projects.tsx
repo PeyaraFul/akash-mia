@@ -71,7 +71,7 @@ export default function Projects() {
                     href={project.links.live}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-5 py-2 text-sm font-medium rounded-lg bg-blue-600 hover:bg-blue-700 text-white shadow-lg shadow-blue-600/25 transition-all duration-300"
+                    className="px-5 py-2 text-sm font-medium rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg shadow-blue-600/25 transition-all duration-300"
                   >
                     Live Link
                   </a>
@@ -84,7 +84,7 @@ export default function Projects() {
         <div className="text-center mt-12">
           <Link
             href="/projects"
-            className="inline-block px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg shadow-lg shadow-blue-600/25 transition-colors"
+            className="inline-block px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-medium rounded-lg shadow-lg shadow-blue-600/25 transition-all"
           >
             See All Projects
           </Link>

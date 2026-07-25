@@ -22,7 +22,7 @@ const contactInfo = [
   {
     icon: FiLinkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/md-akash-mia-bd",
+    value: "Md Akash Mia",
     href: "http://linkedin.com/in/md-akash-mia-bd",
     color: "blue",
   },
@@ -36,7 +36,7 @@ const contactInfo = [
   {
     icon: FiFacebook,
     label: "Facebook",
-    value: "facebook.com/arakash022",
+    value: "Ar Akash",
     href: "https://www.facebook.com/arakash022",
     color: "blue",
   },
@@ -154,7 +154,7 @@ export default function Contact() {
               />
               <button
                 type="submit"
-                className="flex items-center justify-center gap-2 w-full px-6 py-3 text-sm font-medium rounded-xl bg-blue-600 hover:bg-blue-700 text-white shadow-lg shadow-blue-600/25 transition-colors"
+                className="flex items-center justify-center gap-2 w-full px-6 py-3 text-sm font-medium rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg shadow-blue-600/25 transition-all"
               >
                 <FiSend size={18} />
                 Send Message
