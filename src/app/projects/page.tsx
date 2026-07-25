@@ -68,7 +68,7 @@ export default function ProjectsPage() {
                   ))}
                 </div>
 
-                <div className="flex items-center gap-3 mt-5">
+                <div className="flex items-center justify-between gap-3 mt-5">
                   <Link
                     href={`/projects/${project.id}`}
                     className="px-5 py-2 text-sm font-medium rounded-lg border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-all duration-300"
