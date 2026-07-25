@@ -10,8 +10,11 @@ import {
   SiExpress,
   SiMongodb,
   SiFirebase,
+  SiGit,
+  SiGithub,
+  SiStripe,
 } from "react-icons/si";
-import { FiMonitor, FiServer, FiDatabase } from "react-icons/fi";
+import { FiMonitor, FiServer, FiDatabase, FiTool } from "react-icons/fi";
 
 const skillCategories = [
   {
@@ -46,6 +49,18 @@ const skillCategories = [
       { name: "Firebase", icon: SiFirebase, color: "#FFCA28" },
     ],
   },
+  {
+    title: "Tools & Tech",
+    icon: FiTool,
+    color: "amber",
+    skills: [
+      { name: "Git & GitHub", icon: SiGit, color: "#F05032" },
+      { name: "REST APIs", icon: FiServer, color: "#61DAFB" },
+      { name: "JWT", icon: FiServer, color: "#000000", darkColor: "#ffffff" },
+      { name: "Better Auth", icon: FiServer, color: "#8B5CF6" },
+      { name: "Stripe Payment", icon: SiStripe, color: "#635BFF" },
+    ],
+  },
 ];
 
 const colorStyles: Record<string, { border: string; bg: string; iconBg: string; text: string }> = {
@@ -67,6 +82,12 @@ const colorStyles: Record<string, { border: string; bg: string; iconBg: string; 
     iconBg: "bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-400",
     text: "text-purple-600 dark:text-purple-400",
   },
+  amber: {
+    border: "border-amber-200 dark:border-amber-900",
+    bg: "from-amber-50 to-white dark:from-amber-950/30 dark:to-gray-950",
+    iconBg: "bg-amber-100 dark:bg-amber-900/50 text-amber-600 dark:text-amber-400",
+    text: "text-amber-600 dark:text-amber-400",
+  },
 };
 
 export default function Skills() {
@@ -80,7 +101,7 @@ export default function Skills() {
           <div className="mt-3 h-1 w-20 mx-auto bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full" />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {skillCategories.map((category) => {
             const c = colorStyles[category.color];
             return (
@@ -101,7 +122,7 @@ export default function Skills() {
                   {category.skills.map((skill) => (
                     <div
                       key={skill.name}
-                      className={`group flex items-center gap-3 p-3 rounded-xl ${category.color === "blue" ? "bg-blue-50" : category.color === "green" ? "bg-green-50" : "bg-purple-50"} dark:bg-gray-900/80 border border-gray-200 dark:border-gray-800 hover:border-gray-300 dark:hover:border-gray-600 hover:shadow-md transition-all duration-300 cursor-default`}
+                      className={`group flex items-center gap-3 p-3 rounded-xl ${category.color === "blue" ? "bg-blue-50" : category.color === "green" ? "bg-green-50" : category.color === "amber" ? "bg-amber-50" : "bg-purple-50"} dark:bg-gray-900/80 border border-gray-200 dark:border-gray-800 hover:border-gray-300 dark:hover:border-gray-600 hover:shadow-md transition-all duration-300 cursor-default`}
                     >
                       <div className="group-hover:scale-110 transition-transform duration-300">
                         <skill.icon size={22} style={{ color: skill.color }} className="dark:hidden" />

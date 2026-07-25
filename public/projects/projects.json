@@ -166,6 +166,117 @@
         "users": "120+",
         "performanceScore": 95
       }
+    },
+
+    {
+      "id": "4",
+      "name": "Peyaraful Nest",
+      "slug": "Property Rental Platform",
+      "subtitle": "Ther platform connects property owenr and tenant",
+      "description": "Peyaraful Nest is a modern property rental platform where property owners can add properties and tenants can browse, book, and manage rental requests. The platform includes secure authentication, role-based access control, property management, booking workflow, and stripe payment integration.",
+      "featured": {
+        "Ratings and Reviews": "Tenants can rate and review properties.",
+        "Add to favorites": "Tenants can add properties to their favorites list.",
+        "Payment Gateway": "Stripe payment gateway is integrated for secure and seamless transactions.",
+        "Property Management": "Property owners can manage their properties, including images, descriptions, and pricing."
+      },
+      "category": "Full-Stack Web App",
+      "status": "Completed",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-10",
+      "tech": [
+        "Next.js",
+        "MongoDB",
+        "Node.js",
+        "Express.js",
+        "Tailwind CSS"
+      ],
+      "media": {
+        "coverImage": "/public/projects/property-rental/banner.png",
+        "screenshots": [
+          "/public/projects/property-rental/profile.png",
+          "/public/projects/property-rental/property.png",
+          "/public/projects/property-rental/favorite.png"
+         
+        ],
+        "demoVideo": "https://youtube.com/watch?v=example"
+      },
+      "links": {
+        "live": "https://peyaraful-nest-client.vercel.app",
+        "serverRepo": "https://github.com/PeyaraFul/peyaraful-nest-server",
+        "clientRepo": "https://github.com/PeyaraFul/peyaraful-nest-client",
+        "documentation": "https://github.com/PeyaraFul/peyaraful-nest-client/blob/main/README.md"
+      },
+      "highlights": [
+        "Customer can view history of purchases and reviews.",
+        "100+ property are available for rent on the platform."
+      ],
+      "challenge": [
+        "Implemented search property by location, price range, and type. Implemented relative.",
+        "Stripe payment integration for secure and seamless transactions.",
+        "Pagination is implemented to the owner and tenant dashboard to show only 10 properties per page."
+      ],
+      "metrics": {
+        "stars": 130,
+        "users": "90+",
+        "performanceScore":80
+      }
+    },
+
+    {
+      "id": "5",
+      "name": "Drive Nest",
+      "slug": "Car Rental Platform",
+      "subtitle": "Ther platform connects car owner and driver",
+      "description": "Drive Nest is a modern car rental platform where car owners can add cars and drivers can browse, book, and manage rental requests. The platform includes secure authentication, role-based access control, car management, booking workflow.",
+      "featured": {
+        "Property Use Count": "User can view the number of times their cars have been rented.",
+        "Trip date": "User can book a specific date for their rental.",
+        "Cancellation Policy": "User has right to cancel their rental at any time.",
+        "Notes": "User can add notes to their rental request."
+      },
+      "category": "Full-Stack Web App",
+      "status": "Completed",
+      "startDate": "2026-05-15",
+      "endDate": "2026-05-24",
+      "tech": [
+        "Next.js",
+        "MongoDB",
+        "Node.js",
+        "Express.js",
+        "Tailwind CSS"
+      ],
+      "media": {
+        "coverImage": "/public/projects/car-rental/banner.png",
+        "screenshots": [
+          "/public/projects/car-rental/booking.png",
+          "/public/projects/car-rental/car.png",
+          "/public/projects/car-rental/add.png"
+         
+        ],
+        "demoVideo": "https://youtube.com/watch?v=example"
+      },
+      "links": {
+        "live": "https://drive-nest-omega.vercel.app",
+        "serverRepo": "https://github.com/PeyaraFul/drive-nest-server",
+        "clientRepo": "https://github.com/PeyaraFul/drive-nest",
+        "documentation": "https://github.com/PeyaraFul/drive-nest/blob/main/README.md"
+      },
+      "highlights": [
+        "Free use of the platform is available to all users.",
+        "100+ cars and 40+ users are on the platform."
+      ],
+      "challenge": [
+        "Implemented search property by location, and type.",
+        "Implement CURD operation for cars management.",
+        "Count how many times a car has been rented by the users.",
+        "Implement backend setup nodeJS, expressJS, and mongoDB."
+      ],
+      "metrics": {
+        "stars": 70,
+        "users": "40+",
+        "performanceScore":70
+      }
     }
   ]
 }
