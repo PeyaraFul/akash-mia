@@ -40,7 +40,7 @@ export default function Hero() {
                 Hire Me
               </a>
               <a
-                href="/resume.pdf"
+                href="/MERN-Stack_developer_akashMia.pdf"
                 download
                 className="px-8 py-3 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 font-medium rounded-lg transition-colors flex items-center gap-2"
               >
