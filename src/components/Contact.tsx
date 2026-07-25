@@ -8,6 +8,7 @@ import {
   FiFacebook,
   FiSend,
   FiCheck,
+  FiX,
 } from "react-icons/fi";
 
 const contactInfo = [
@@ -55,16 +56,33 @@ const colorMap: Record<string, { bg: string; text: string; hover: string }> = {
 };
 
 export default function Contact() {
-  const [submitted, setSubmitted] = useState(false);
+  const [showToast, setShowToast] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 3000);
+    setShowToast(true);
+    setTimeout(() => setShowToast(false), 4000);
   };
 
   return (
     <section id="contact" className="w-full py-20 bg-white dark:bg-black">
+      {showToast && (
+        <div className="fixed top-24 right-6 z-50 flex items-center gap-3 px-5 py-3 rounded-xl bg-green-50 dark:bg-green-900/30 border border-green-200 dark:border-green-800 shadow-lg shadow-green-500/10 animate-slide-in">
+          <div className="w-8 h-8 flex items-center justify-center rounded-full bg-green-500 text-white">
+            <FiCheck size={16} />
+          </div>
+          <div>
+            <p className="text-sm font-semibold text-green-700 dark:text-green-300">Message Sent!</p>
+            <p className="text-xs text-green-600 dark:text-green-400">I&apos;ll get back to you soon.</p>
+          </div>
+          <button
+            onClick={() => setShowToast(false)}
+            className="ml-2 p-1 rounded-lg text-green-600 dark:text-green-400 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
+          >
+            <FiX size={16} />
+          </button>
+        </div>
+      )}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">
@@ -138,17 +156,8 @@ export default function Contact() {
                 type="submit"
                 className="flex items-center justify-center gap-2 w-full px-6 py-3 text-sm font-medium rounded-xl bg-blue-600 hover:bg-blue-700 text-white shadow-lg shadow-blue-600/25 transition-colors"
               >
-                {submitted ? (
-                  <>
-                    <FiCheck size={18} />
-                    Message Sent!
-                  </>
-                ) : (
-                  <>
-                    <FiSend size={18} />
-                    Send Message
-                  </>
-                )}
+                <FiSend size={18} />
+                Send Message
               </button>
             </form>
           </div>
