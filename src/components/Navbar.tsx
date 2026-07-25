@@ -7,10 +7,10 @@ import { FiSun, FiMoon, FiMenu, FiX } from "react-icons/fi";
 
 const navLinks = [
   { name: "Home", href: "/" },
-  { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
+  { name: "About", href: "/#about" },
+  { name: "Skills", href: "/#skills" },
   { name: "Projects", href: "/projects" },
-  { name: "Contact", href: "#contact" },
+  { name: "Contact", href: "/#contact" },
 ];
 
 export default function Navbar() {
