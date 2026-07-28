@@ -38,7 +38,7 @@
         "live": "https://peyaraful-crowdfunding-client.vercel.app",
         "serverRepo": "https://github.com/PeyaraFul/peyaraful-crowdfunding-server",
         "clientRepo": "https://github.com/PeyaraFul/peyaraful-crowdfunding-client",
-        "documentation": "https://docs.devflow.example.com"
+        "documentation": "https://github.com/PeyaraFul/peyaraful-crowdfunding-client/blob/main/README.md"
       },
       "highlights": [
         "Architected with Next.js 14 App Router and Server Actions for fast server-side rendering.",
@@ -94,7 +94,7 @@
         "live": "https://peyarafulcatadoptionclient.vercel.app",
         "serverRepo": "https://github.com/PeyaraFul/peyaraful-cat-adoption-server",
         "clientRepo": "https://github.com/PeyaraFul/peyaraful-cat-adoption-client",
-        "documentation": "https://docs.devflow.example.com"
+        "documentation": "https://github.com/PeyaraFul/peyaraful-cat-adoption-client/blob/main/README.md"
       },
       "highlights": [
         "Architected with Next.js 14 App Router and Server Actions for fast server-side rendering.",
@@ -151,7 +151,7 @@
         "live": "https://peyaraful-farm-client.vercel.app",
         "serverRepo": "https://github.com/PeyaraFul/peyaraful-farm-server",
         "clientRepo": "https://github.com/PeyaraFul/peyaraful-farm-client",
-        "documentation": "https://docs.devflow.example.com"
+        "documentation": "https://github.com/PeyaraFul/peyaraful-farm-client/blob/main/README.md"
       },
       "highlights": [
         "Customer can view history of purchases and reviews.",

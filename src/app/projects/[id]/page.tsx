@@ -233,6 +233,15 @@ export default async function ProjectDetails({ params }: { params: Promise<{ id:
                   <FiGithub size={16} />
                   Server Repo
                 </a>
+                <a
+                  href={project.links.documentation}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 w-full px-4 py-2.5 text-sm font-medium rounded-lg border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+                >
+                  <FiBookOpen size={16} />
+                  Documentation
+                </a>
               </div>
             </div>
           </div>
