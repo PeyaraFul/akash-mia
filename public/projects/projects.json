@@ -1,7 +1,9 @@
 {
   "projects": [
+
+ 
     {
-      "id": "1",
+      "id": "peyaraful-crowdfunding", 
       "name": "Peyaraful Crowdfunding",
       "slug": "Crowdfunding community platform",
       "subtitle": "Empowering creators to raise funds through community support for projects, causes, and innovative ideas.",
@@ -57,7 +59,7 @@
     },
 
     {
-      "id": "2",
+      "id": "peyaraful-cat-adoption",
       "name": "Peyaraful Cat Adoption",
       "slug": "Cat Adoption Platform",
       "subtitle": "Empowering cat lovers to adopt cats and provide them with a loving home.",
@@ -115,7 +117,7 @@
     },
 
     {
-      "id": "3",
+      "id": "peyaraful-farm",
       "name": "Peyaraful Farm",
       "slug": "Cow Sales Site",
       "subtitle": "The farm authority sales cows and buffalo to the customers and the customers can buy animal from the farm authority.",
@@ -172,7 +174,7 @@
     },
 
     {
-      "id": "4",
+      "id": "peyaraful-nest",
       "name": "Peyaraful Nest",
       "slug": "Property Rental Platform",
       "subtitle": "Ther platform connects property owenr and tenant",
@@ -221,7 +223,7 @@
     },
 
     {
-      "id": "5",
+      "id": "drive-nest",
       "name": "Drive Nest",
       "slug": "Car Rental Platform",
       "subtitle": "Ther platform connects car owner and driver",
@@ -267,6 +269,55 @@
         "stars": 70,
         "users": "40+",
         "performanceScore": 70
+      }
+    },
+
+    {
+      "id": "summer-essential-store",
+      "name": "Summer Essential Store",
+      "slug": "Summer product E-commerce application",
+      "subtitle": "Users discover and purchase summer-related products",
+      "description": "Summer Essential Store is a modern e-commerce application that allows users to discover and purchase summer-related products. The platform provides a user-friendly interface for browsing products, viewing details.",
+      "featured": {
+        "Responsive Design": "The application is responsive and adapts to different screen sizes.",
+        "Profile": "Users can create a profile and update their information.",
+        "Google Login": "Users can sign in using their Google account."
+      },
+      "category": "Frontend Web App",
+      "status": "Completed",
+      "startDate": "2026-04-15",
+      "endDate": "2026-04-25",
+      "tech": ["Next.js", "Tailwind CSS", "MongoDB", "DaisyUI", "Better-Auth"],
+      "media": {
+        "coverImage": "/public/projects/summer-store/banner.png",
+        "screenshots": [
+          "/public/projects/summer-store/card.png",
+          "/public/projects/summer-store/deals.png",
+          "/public/projects/summer-store/product-detials.png"
+        ],
+        "demoVideo": "https://youtube.com/watch?v=example"
+      },
+      "links": {
+        "live": "https://summer-essential-store.vercel.app",
+        "serverRepo": "https://github.com/PeyaraFul/summer-essential-store",
+        "clientRepo": "https://github.com/PeyaraFul/summer-essential-store",
+        "documentation": "https://github.com/PeyaraFul/summer-essential-store/blob/main/README.md"
+      },
+      "highlights": [
+        "Hot deals and discounts for summer season.",
+        "Summer care tips and advice."
+      ],
+      "challenge": [
+        "Implemented first time MongoDB connection.",
+        "Implement CURD operation for profile management.",
+        "Implement better-auth authentication.",
+        "Implement functional Navbar."
+      ],
+      "improvement": ["Role based access control.", "payment integration.", "UX/UI improvements.", "More profile features."],
+      "metrics": {
+        "stars": 65,
+        "users": "5+",
+        "performanceScore": 20
       }
     }
   ]
